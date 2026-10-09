@@ -97,9 +97,51 @@ main a {
 }
 
 section {
-  min-height: 60vh;
+  max-width: 68ch;
   padding: 48px 0;
   scroll-margin-top: 0;
+}
+
+section > h1,
+section > h2 {
+  margin: 0 0 24px;
+}
+
+section > h1::after,
+section > h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin-top: 8px;
+  border-radius: 2px;
+  background: var(--color-primary);
+}
+
+.lead {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.credentials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.credentials li + li {
+  margin-top: 16px;
+}
+
+.credential-title {
+  display: block;
+  font-weight: 600;
+}
+
+.credential-issuer {
+  display: block;
+  color: var(--color-muted);
 }
 
 /* Narrow screens: top bar with a menu button */
