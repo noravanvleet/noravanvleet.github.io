@@ -91,6 +91,11 @@ main {
   padding: 0 48px;
 }
 
+main a {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
 section {
   min-height: 60vh;
   padding: 48px 0;
