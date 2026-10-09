@@ -18,14 +18,14 @@ Commits: `docs: record color palette decision`, then `feat: add color palette st
 
 ## 2. Add a left-hand navigation bar
 
-- [ ] Add a `<nav>` fixed to the left side of the screen with the site name at the top and links: Home, Services, Work, About, Contact.
-- [ ] Links jump to matching sections on the page (placeholder sections are fine for now).
-- [ ] Add two separate pages, `recipes.html` and `games.html`, with placeholder content, and link them from the nav as Recipes and Games.
-- [ ] The nav appears on every page, and section links work from any page.
-- [ ] Highlight the link for the current section or page.
-- [ ] On narrow screens (under 768px), collapse the nav into a menu button so it doesn't cover the content.
-- [ ] Keyboard accessible: links reachable with Tab, visible focus styles.
-- [ ] Uses only the palette's CSS custom properties for color.
+- [x] Add a `<nav>` fixed to the left side of the screen with the site name at the top and links: Home, Services, Work, About, Contact.
+- [x] Links jump to matching sections on the page (placeholder sections are fine for now).
+- [x] Add two separate pages, `recipes.html` and `games.html`, with placeholder content, and link them from the nav as Recipes and Games.
+- [x] The nav appears on every page, and section links work from any page.
+- [x] Highlight the link for the current section or page.
+- [x] On narrow screens (under 768px), collapse the nav into a menu button so it doesn't cover the content.
+- [x] Keyboard accessible: links reachable with Tab, visible focus styles.
+- [x] Uses only the palette's CSS custom properties for color.
 
 **Done when:** the live site shows the left nav on desktop, a working menu button on a phone, and every link reaches its section or page.
 
