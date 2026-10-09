@@ -158,7 +158,10 @@ section > h2::after {
     align-items: center;
     justify-content: space-between;
     padding: 12px 16px;
-    overflow: visible;
+    /* Let the open menu scroll when it's taller than the screen */
+    max-height: 100vh;
+    max-height: 100dvh;
+    overflow-y: auto;
   }
 
   .site-name {
