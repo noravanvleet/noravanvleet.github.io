@@ -15,7 +15,7 @@ Commit: `docs: add claude md and backlog`
 ## 2. Add hello world page
 
 - [x] Create `index.html` at the repo root: valid HTML5 doctype, `lang="en"`, UTF-8 charset, viewport meta, a `<title>`, and an `<h1>Hello, world</h1>`.
-- [ ] Open it locally in a browser and confirm it renders.
+- [x] Open it locally in a browser and confirm it renders.
 
 **Done when:** `index.html` is on `main` and renders "Hello, world" locally.
 
