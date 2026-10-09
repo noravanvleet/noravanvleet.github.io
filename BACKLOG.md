@@ -10,7 +10,7 @@ Work items are done in order, each as one small commit to `main` (see `CLAUDE.md
 - [x] Check that text/background pairs meet WCAG AA contrast (4.5:1 for body text).
 - [x] Decide whether the site supports dark mode: no, light only.
 - [x] Record the decision and the reasons in `docs/decisions/0001-color-palette.md`.
-- [ ] Add the colors as CSS custom properties on `:root` in `styles.css`, link it from `index.html`, and apply the background and text colors.
+- [x] Add the colors as CSS custom properties on `:root` in `styles.css`, link it from `index.html`, and apply the background and text colors.
 
 **Done when:** the decision record is on `main` and the live page uses the palette's background and text colors.
 
