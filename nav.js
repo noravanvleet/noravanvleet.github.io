@@ -18,6 +18,11 @@ nav.addEventListener("click", (event) => {
   if (event.target.closest("a") && narrowScreen.matches) setMenuOpen(false);
 });
 
+document.addEventListener("pointerdown", (event) => {
+  const menuOpen = menuButton.getAttribute("aria-expanded") === "true";
+  if (menuOpen && !event.target.closest(".site-header")) setMenuOpen(false);
+});
+
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
     setMenuOpen(false);
